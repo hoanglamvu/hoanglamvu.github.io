@@ -116,7 +116,7 @@ header a {
   padding: 10px;
 }
 header a:hover {
-  color: black;
+  color: #02090e;
   text-decoration: none;
   background: #eee;
   border-radius: 4px;
@@ -315,7 +315,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(2, 9, 14, 0.8);
   z-index: 1;
 }
 
