@@ -369,6 +369,7 @@ footer {
 #about .profile-image {
   height: 450px;
   width: 450px;
+  border-radius: 50%;
 }
 #about h2 {
   color: #374054;
