@@ -45,7 +45,6 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 16px;
 }
-
 body.active {
   overflow: hidden;
   z-index: -1;
@@ -57,7 +56,6 @@ body.active {
   margin-bottom: 10px;
   border: 1px solid #dcd9d9;
 }
-
 .no-js #experience-timeline > div h3 {
   font-size: 1.5em;
   font-weight: 300;
@@ -65,20 +63,17 @@ body.active {
   display: inline-block;
   margin: 0;
 }
-
 .no-js #experience-timeline > div h4 {
   font-size: 1.2em;
   font-weight: 300;
   color: #7e8890;
   margin: 0 0 15px 0;
 }
-
 .no-js #experience-timeline > div p {
   color: #74808a;
   font-size: 0.9em;
   margin: 0;
 }
-
 .no-js #experience-timeline:before, .no-js #experience-timeline:after {
   content: none;
 }
@@ -103,7 +98,6 @@ header {
   animation-timing-function: ease;
   animation-duration: 0.75s;
 }
-
 header ul {
   display: inline-block;
   background: #fff;
@@ -113,33 +107,27 @@ header ul {
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-
 header li {
   display: inline-block;
 }
-
 header a {
   display: block;
   color: #629DD1;
   padding: 10px;
 }
-
 header a:hover {
   color: #0c1b28;
   text-decoration: none;
   background: #eee;
   border-radius: 4px;
 }
-
 header a:focus {
   color: #629DD1;
   text-decoration: none;
 }
-
 header.active {
   display: block;
 }
-
 header.sticky {
   position: fixed;
   z-index: 999;
@@ -174,12 +162,10 @@ header.sticky {
   cursor: pointer;
   color: #629DD1;
 }
-
 #mobile-menu-close span {
   font-size: 0.5em;
   text-transform: uppercase;
 }
-
 #mobile-menu-close i {
   vertical-align: middle;
 }
@@ -191,7 +177,6 @@ footer {
 .copyright {
   padding-top: 20px;
 }
-
 .copyright p {
   margin: 0;
   color: #74808a;
@@ -200,7 +185,6 @@ footer {
 .top {
   text-align: center;
 }
-
 .top span {
   cursor: pointer;
   display: block;
@@ -211,7 +195,6 @@ footer {
   border: 3px solid #b9bfc4;
   text-align: center;
 }
-
 .top i {
   color: #74808a;
 }
@@ -219,24 +202,20 @@ footer {
 .social {
   text-align: right;
 }
-
 .social ul {
   margin: 5px 0 0 0;
   padding: 0;
 }
-
 .social li {
   display: inline-block;
   font-size: 1.25em;
   list-style: none;
 }
-
 .social a {
   display: block;
   color: #74808a;
   padding: 10px;
 }
-
 .social a:hover {
   color: #629DD1;
 }
@@ -249,7 +228,6 @@ footer {
   border-radius: 30px;
   transition: 0.5s ease all;
 }
-
 .btn-rounded-white:hover {
   color: #629DD1;
   background: #fff;
@@ -271,7 +249,6 @@ footer {
   font-weight: 300;
   margin: 0 0 30px 0;
 }
-
 .heading:after {
   position: absolute;
   content: "";
@@ -312,11 +289,9 @@ footer {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
 #lead-content h1, #lead-content h2 {
   margin: 0;
 }
-
 #lead-content h1 {
   color: #fff;
   font-weight: 900;
@@ -325,7 +300,6 @@ footer {
   letter-spacing: 0.05em;
   line-height: 0.9em;
 }
-
 #lead-content h2 {
   color: #c5dbee;
   font-weight: 500;
@@ -355,7 +329,6 @@ footer {
   bottom: 15px;
   color: #fff;
 }
-
 #lead-down span {
   cursor: pointer;
   display: block;
@@ -366,7 +339,6 @@ footer {
   border: 3px solid #c5dbee;
   text-align: center;
 }
-
 #lead-down i {
   animation: pulsate 1.5s ease;
   animation-iteration-count: infinite;
@@ -394,18 +366,16 @@ footer {
   text-align: center;
   border-bottom: 1px solid #dcd9d9;
 }
-
 #about .profile-image {
   height: 450px;
   width: 450px;
 }
-
 #about h2 {
   color: #374054;
   margin-bottom: 50px;
 }
-
 #about p {
+  text-align: left;
   color: #74808a;
   margin: 0;
 }
@@ -420,7 +390,6 @@ footer {
   text-align: center;
   border-bottom: 1px solid #dcd9d9;
 }
-
 #experience h2 {
   color: #374054;
 }
@@ -430,7 +399,6 @@ footer {
   position: relative;
   max-width: 1000px;
 }
-
 #experience-timeline:before {
   position: absolute;
   content: "";
@@ -443,7 +411,6 @@ footer {
   background: #629DD1;
   z-index: 0;
 }
-
 #experience-timeline:after {
   position: absolute;
   content: "";
@@ -463,7 +430,6 @@ footer {
   border-radius: 3px;
   text-align: left;
 }
-
 .vtimeline-content h3 {
   font-size: 1.5em;
   font-weight: 300;
@@ -471,14 +437,12 @@ footer {
   display: inline-block;
   margin: 0;
 }
-
 .vtimeline-content h4 {
   font-size: 1.2em;
   font-weight: 300;
   color: #7e8890;
   margin: 0 0 15px 0;
 }
-
 .vtimeline-content p {
   color: #74808a;
   font-size: 0.9em;
@@ -503,7 +467,6 @@ footer {
   z-index: 99;
   margin-left: 280px;
 }
-
 .vtimeline-icon i {
   display: block;
   font-size: 2em;
@@ -530,7 +493,6 @@ footer {
   border-bottom: 1px solid #dcd9d9;
   text-align: center;
 }
-
 #education h2 {
   color: #374054;
   margin-bottom: 50px;
@@ -543,32 +505,27 @@ footer {
   border: 1px solid #dcd9d9;
   text-align: left;
 }
-
 .education-block h3 {
   font-weight: 500;
   float: left;
   margin: 0;
   color: #374054;
 }
-
 .education-block span {
   color: #74808a;
   float: right;
 }
-
 .education-block h4 {
   color: #74808a;
   clear: both;
   font-weight: 500;
   margin: 0 0 15px 0;
 }
-
 .education-block p, .education-block ul {
   margin: 0;
   color: #74808a;
   font-size: 0.9em;
 }
-
 .education-block ul {
   padding: 0 0 0 15px;
 }
@@ -583,7 +540,6 @@ footer {
   border-bottom: 1px solid #dcd9d9;
   text-align: center;
 }
-
 #projects h2 {
   color: #374054;
   margin-bottom: 50px;
@@ -609,14 +565,12 @@ footer {
   margin-left: 300px;
   padding: 15px;
 }
-
 .project-info h3 {
   font-size: 1.5em;
   font-weight: 300;
   color: #374054;
   margin: 0 0 15px 0;
 }
-
 .project-info p {
   color: #74808a;
   margin: 0 0 15px 0;
@@ -643,19 +597,16 @@ footer {
   padding: 50px 15px;
   text-align: center;
 }
-
 #skills h2 {
   color: #374054;
   margin-bottom: 50px;
 }
-
 #skills ul {
   display: block;
   margin: 0 auto;
   padding: 0;
   max-width: 800px;
 }
-
 #skills li {
   display: inline-block;
   margin: 7px;
@@ -677,7 +628,6 @@ footer {
   background: #629DD1;
   text-align: center;
 }
-
 #contact h2 {
   margin: 0 0 15px 0;
   color: #fff;
@@ -688,7 +638,6 @@ footer {
   max-width: 500px;
   margin: 0 auto;
 }
-
 #contact-form input, #contact-form textarea {
   display: block;
   width: 100%;
@@ -700,35 +649,28 @@ footer {
   color: #fff;
   transition: 0.5s ease all;
 }
-
 #contact-form input::-webkit-input-placeholder, #contact-form textarea::-webkit-input-placeholder {
   color: #fff;
 }
-
 #contact-form input:-moz-placeholder, #contact-form textarea:-moz-placeholder {
   color: #fff;
   opacity: 1;
 }
-
 #contact-form input::-moz-placeholder, #contact-form textarea::-moz-placeholder {
   color: #fff;
   opacity: 1;
 }
-
 #contact-form input:-ms-input-placeholder, #contact-form textarea:-ms-input-placeholder {
   color: #fff;
 }
-
 #contact-form input:focus, #contact-form textarea:focus {
   outline: none;
   background: #295d8b;
 }
-
 #contact-form textarea {
   height: 150px;
   resize: none;
 }
-
 #contact-form button {
   display: block;
   width: 100%;
@@ -741,7 +683,6 @@ footer {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: 0.5s ease all;
 }
-
 #contact-form button:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
@@ -756,7 +697,6 @@ footer {
   text-align: center;
   border-top: 1px solid #dcd9d9;
 }
-
 .optional-section h2 {
   color: #374054;
 }
@@ -769,26 +709,22 @@ footer {
   background: #fff;
   text-align: left;
 }
-
 .optional-section-block h3 {
   font-weight: 500;
   margin: 0 0 15px 0;
   color: #374054;
 }
-
 .optional-section-block h4 {
   color: #74808a;
   clear: both;
   font-weight: 500;
   margin: 0 0 15px 0;
 }
-
 .optional-section-block p, .optional-section-block ul {
   margin: 0 0 15px 0;
   color: #74808a;
   font-size: 0.9em;
 }
-
 .optional-section-block ul {
   padding: 0 0 0 15px;
 }
@@ -834,11 +770,9 @@ footer {
     left: auto;
     top: auto;
   }
-
   #lead-content h1 {
     font-size: 3em;
   }
-
   #lead-content h2 {
     font-size: 1.75em;
   }
@@ -846,7 +780,6 @@ footer {
   #about {
     text-align: center;
   }
-
   #about p {
     text-align: left;
   }
@@ -872,7 +805,6 @@ footer {
     border-radius: 0;
     width: 100%;
   }
-
   #menu li {
     display: block;
     margin-bottom: 10px;
@@ -881,11 +813,9 @@ footer {
   #lead-content h1 {
     font-size: 2em;
   }
-
   #lead-content h2 {
     font-size: 1.3em;
   }
-
   #lead-content a {
     padding: 10px 20px;
   }
@@ -922,11 +852,9 @@ footer {
   #lead-content h1 {
     font-size: 1.5em;
   }
-
   #lead-content h2 {
     font-size: 1em;
   }
-
   #lead-content a {
     font-size: 0.9em;
     padding: 5px 10px;

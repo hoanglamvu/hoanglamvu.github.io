@@ -447,7 +447,7 @@ footer {
 
 #about {
     padding: 50px 15px;
-    text-align: left;
+    text-align: center;
     border-bottom: 1px solid $border;
 
     .profile-image {
@@ -461,6 +461,7 @@ footer {
     }
 
     p {
+        text-align: left;
         color: $text;
         margin: 0;
     }
