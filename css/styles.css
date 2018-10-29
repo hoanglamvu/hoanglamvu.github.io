@@ -350,7 +350,7 @@ footer {
     ---------------------------
 */
 #about {
-  padding: 35px 15px;
+  padding: 35px 15px 10px;
   text-align: center;
   border-bottom: 1px solid #dcd9d9;
 }
