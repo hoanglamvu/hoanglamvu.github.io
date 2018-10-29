@@ -116,7 +116,7 @@ header a {
   padding: 10px;
 }
 header a:hover {
-  color: #3b84c5;
+  color: #0c1b28;
   text-decoration: none;
   background: #eee;
   border-radius: 4px;
@@ -315,7 +315,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(59, 132, 197, 0.8);
+  background: rgba(12, 27, 40, 0.8);
   z-index: 1;
 }
 
@@ -362,7 +362,7 @@ footer {
     ---------------------------
 */
 #about {
-  padding: 50px 15px;
+  padding: 75px 15px;
   border-bottom: 1px solid #dcd9d9;
 }
 #about h2 {
