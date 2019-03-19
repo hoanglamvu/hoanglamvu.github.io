@@ -359,12 +359,13 @@ footer {
   margin-bottom: 50px;
 }
 #about .profile-image {
-  padding: 0px 0px 30px;
+  padding: 10px 0px 30px;
 }
 #about p {
   text-align: left;
   color: #74808a;
   margin-bottom: 50px;
+  letter-spacing: 1px
 }
 
 /*
